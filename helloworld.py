@@ -1,3 +1,4 @@
 #!/usr/bin/python 
+import getpass
 
-print "hello world"
+print "hello", getpass.getuser()
